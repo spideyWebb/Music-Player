@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="687.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.musicplayer.HelloController">
+   <children>
+      <Label fx:id="songLabel" alignment="CENTER" layoutY="-2.0" prefHeight="95.0" prefWidth="687.0" style="-fx-background-color: linear-gradient(to left, #61D8DE, #E839F6);" text="Music Player" textFill="#d7ff12">
+         <font>
+            <Font name="Jokerman" size="40.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="songProgressBar" layoutY="94.0" prefHeight="18.0" prefWidth="687.0" progress="0.0" style="-fx-border-color: orange;" />
+      <Button fx:id="playBtn" layoutY="112.0" mnemonicParsing="false" onAction="#playMedia" prefHeight="47.0" prefWidth="85.0" text="Play" textFill="#49b754">
+         <font>
+            <Font name="Candara Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="prevBtn" layoutX="255.0" layoutY="112.0" mnemonicParsing="false" onAction="#prevMedia" prefHeight="47.0" prefWidth="85.0" text="Previous">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="pauseBtn" layoutX="85.0" layoutY="112.0" mnemonicParsing="false" onAction="#pauseMedia" prefHeight="47.0" prefWidth="85.0" text="Pause" textFill="#e95d5d">
+         <font>
+            <Font name="Calisto MT Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="nextBtn" layoutX="340.0" layoutY="112.0" mnemonicParsing="false" onAction="#nextMedia" prefHeight="47.0" prefWidth="85.0" text="Next">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="resetBtn" layoutX="170.0" layoutY="112.0" mnemonicParsing="false" onAction="#ResetMedia" prefHeight="47.0" prefWidth="85.0" text="Reset">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="speedBox" layoutX="425.0" layoutY="112.0" onAction="#changeSpeed" prefHeight="47.0" prefWidth="85.0" promptText="Speed" />
+      <Slider fx:id="volumeSlider" layoutX="510.0" layoutY="129.0" max="200.0" prefHeight="14.0" prefWidth="177.0" style="-fx-background-color: orange;" value="100.0" />
+   </children>
+</AnchorPane>
