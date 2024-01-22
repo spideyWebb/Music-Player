@@ -1,4 +1,4 @@
-# MP3 Music Player with JavaFX
+# MP3 Music Player
 
 ## Description
 
