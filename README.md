@@ -4,10 +4,6 @@
 
 This is a simple MP3 music player application built using JavaFX. It allows users to play, pause, stop, and navigate through their MP3 music collection. The application provides a user-friendly interface with basic controls for an enjoyable music playback experience.
 
-## Example
-
-![Screenshot 2024-01-23 030053](https://github.com/spideyWebb/Music-Player/assets/97754382/23a45f44-b37e-411e-a337-00c1bc2e1db7)
-
 ## Features
 
 - Play, Pause, and Stop functionality
@@ -17,7 +13,7 @@ This is a simple MP3 music player application built using JavaFX. It allows user
 
 ## Screenshots
 
-Include screenshots or GIFs demonstrating the UI and functionality of your MP3 music player.
+![Screenshot 2024-01-23 030053](https://github.com/spideyWebb/Music-Player/assets/97754382/23a45f44-b37e-411e-a337-00c1bc2e1db7)
 
 ## Prerequisites
 
