@@ -6,7 +6,7 @@ This is a simple MP3 music player application built using JavaFX. It allows user
 
 ## Example
 
-
+![Screenshot 2024-01-23 030053](https://github.com/spideyWebb/Music-Player/assets/97754382/23a45f44-b37e-411e-a337-00c1bc2e1db7)
 
 ## Features
 
