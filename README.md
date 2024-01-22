@@ -19,8 +19,8 @@ This is a simple MP3 music player application built using JavaFX. It allows user
 
 Before running the application, ensure that you have the following installed:
 
-- Java (version X.X.X)
-- JavaFX library (if not included in your Java distribution)
+- Java (version 21.0.2)
+- JavaFX library 
 
 ## Getting Started
 
